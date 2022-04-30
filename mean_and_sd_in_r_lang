@@ -1,0 +1,12 @@
+> library(readxl)
+> district_level_manufacturing_msme2 <- read_excel("Desktop/district_level_manufacturing_msme2.xlsx")
+> View(district_level_manufacturing_msme2)                                     
+> winova <- read_excel("Desktop/district_level_manufacturing_msme2.xlsx")
+                                                                               
+> mean(winova$Total)
+[1] 9140.889
+> sd(winova$Last_Updated)
+[1] 0
+> sd(winova$MICRO)
+[1] 10248.14
+> 
